@@ -1,0 +1,14 @@
+1. Tiene una matriz de NumPy con la forma (2,20). ¿Qué indica esto sobre los elementos de la matriz?
+
+C: Una forma de (2,20) indica una matriz multidimensional con dos matrices, cada una de las cuales contiene 20 elementos.
+
+2. Tiene un objeto DataFrame de Pandas llamado df_sales que contiene datos de ventas diarios. El objeto
+DataFrame contiene las siguientes columnas: year, month, day_of_month y sales_total. Quiere determinar 
+el valor promedio de sales_total. ¿Qué código debería usar?
+
+C: df_sales['sales_total'].mean()
+
+3. Tiene un objeto DataFrame que contiene datos sobre las ventas de helados diarias. Usa el método "corr" 
+para comparar las columnas avg_temp y units_sold y obtiene un resultado de 0,97. ¿Qué indica este resultado?
+
+C: Los días con valores altos de avg_temp tienden a coincidir con los días que tienen valores altos de units_sold.
